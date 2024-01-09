@@ -21,10 +21,8 @@ int main(){
 	}
 	
 	for (i=0;i<soluong;i++){
-		printf ("Phan tu array[%d] la ", i);
-	    scanf ("%d", &array[i]);
+		printf ("Phan tu array[%d] la %d\n ", i, array[i]);
 	}
 	
 	return 0;
-	
 }
